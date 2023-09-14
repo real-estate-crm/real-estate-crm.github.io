@@ -3,10 +3,10 @@
     "projectName": "RealEstateProd3",
     "databases": [
         {
-            "$id": "64c4de8e7b30179809ff",
+            "$id": "64c4de8e7b30179809ef",
             "name": "DATABASE",
             "$createdAt": "2023-07-29T09:40:30.505+00:00",
-            "$updatedAt": "2023-08-24T12:23:39.793+00:00"
+            "$updatedAt": "2023-09-14T07:31:19.869+00:00"
         }
     ],
     "collections": [
@@ -18,7 +18,7 @@
                 "update(\"any\")",
                 "delete(\"any\")"
             ],
-            "databaseId": "64c4de8e7b30179809ff",
+            "databaseId": "64c4de8e7b30179809ef",
             "name": "USER",
             "enabled": true,
             "documentSecurity": false,
@@ -189,7 +189,7 @@
                 "update(\"any\")",
                 "delete(\"any\")"
             ],
-            "databaseId": "64c4de8e7b30179809ff",
+            "databaseId": "64c4de8e7b30179809ef",
             "name": "SETTINGS",
             "enabled": true,
             "documentSecurity": false,
@@ -241,7 +241,7 @@
                 "update(\"any\")",
                 "delete(\"any\")"
             ],
-            "databaseId": "64c4de8e7b30179809ff",
+            "databaseId": "64c4de8e7b30179809ef",
             "name": "FILES",
             "enabled": true,
             "documentSecurity": false,
@@ -266,7 +266,7 @@
                 "update(\"any\")",
                 "delete(\"any\")"
             ],
-            "databaseId": "64c4de8e7b30179809ff",
+            "databaseId": "64c4de8e7b30179809ef",
             "name": "CONTACT",
             "enabled": true,
             "documentSecurity": false,
@@ -539,7 +539,7 @@
                     "status": "available",
                     "required": false,
                     "array": true,
-                    "size": 48,
+                    "size": 32,
                     "default": null
                 },
                 {
@@ -548,7 +548,7 @@
                     "status": "available",
                     "required": false,
                     "array": true,
-                    "size": 48,
+                    "size": 32,
                     "default": null
                 }
             ],
@@ -596,6 +596,309 @@
                     ],
                     "orders": [
                         "ASC",
+                        "ASC"
+                    ]
+                }
+            ]
+        },
+        {
+            "$id": "64db49022640a0d53252",
+            "$permissions": [
+                "create(\"any\")",
+                "read(\"any\")",
+                "update(\"any\")",
+                "delete(\"any\")"
+            ],
+            "databaseId": "64c4de8e7b30179809ef",
+            "name": "DEAL",
+            "enabled": true,
+            "documentSecurity": false,
+            "attributes": [
+                {
+                    "key": "apartment_id",
+                    "type": "string",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "size": 128,
+                    "default": null
+                },
+                {
+                    "key": "bid_id",
+                    "type": "string",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "size": 128,
+                    "default": null
+                },
+                {
+                    "key": "status",
+                    "type": "string",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "size": 32,
+                    "default": null
+                },
+                {
+                    "key": "user_id",
+                    "type": "string",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "size": 128,
+                    "default": null
+                },
+                {
+                    "key": "telefon",
+                    "type": "string",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "size": 128,
+                    "default": null
+                },
+                {
+                    "key": "istochnik",
+                    "type": "string",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "size": 32,
+                    "default": null
+                },
+                {
+                    "key": "czena",
+                    "type": "string",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "size": 128,
+                    "default": null
+                },
+                {
+                    "key": "prodazha",
+                    "type": "boolean",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "default": null
+                },
+                {
+                    "key": "arenda",
+                    "type": "boolean",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "default": null
+                },
+                {
+                    "key": "index",
+                    "type": "integer",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "min": -9223372036854775808,
+                    "max": 9223372036854775807,
+                    "default": null
+                },
+                {
+                    "key": "contact_id",
+                    "type": "string",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "size": 128,
+                    "default": null
+                },
+                {
+                    "key": "valyuta",
+                    "type": "string",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "size": 32,
+                    "default": null
+                },
+                {
+                    "key": "tip_prodazhi",
+                    "type": "string",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "size": 32,
+                    "default": null
+                },
+                {
+                    "key": "tip_arendy",
+                    "type": "string",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "size": 32,
+                    "default": null
+                },
+                {
+                    "key": "system_metadata",
+                    "type": "string",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "size": 1024,
+                    "default": null
+                }
+            ],
+            "indexes": []
+        },
+        {
+            "$id": "64c75cc607be95d26b8d",
+            "$permissions": [
+                "create(\"any\")",
+                "read(\"any\")",
+                "update(\"any\")",
+                "delete(\"any\")"
+            ],
+            "databaseId": "64c4de8e7b30179809ef",
+            "name": "EDITTARGET",
+            "enabled": true,
+            "documentSecurity": false,
+            "attributes": [
+                {
+                    "key": "entity_id",
+                    "type": "string",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "size": 256,
+                    "default": null
+                },
+                {
+                    "key": "path",
+                    "type": "string",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "size": 256,
+                    "default": null
+                }
+            ],
+            "indexes": []
+        },
+        {
+            "$id": "64ff0d1a1eec52961ec4",
+            "$permissions": [
+                "create(\"any\")",
+                "read(\"any\")",
+                "update(\"any\")",
+                "delete(\"any\")"
+            ],
+            "databaseId": "64c4de8e7b30179809ef",
+            "name": "DEAL_HISTORY",
+            "enabled": true,
+            "documentSecurity": false,
+            "attributes": [
+                {
+                    "key": "user_id",
+                    "type": "string",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "size": 128,
+                    "default": null
+                },
+                {
+                    "key": "bid_id",
+                    "type": "string",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "size": 128,
+                    "default": null
+                },
+                {
+                    "key": "apartment_id",
+                    "type": "string",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "size": 128,
+                    "default": null
+                },
+                {
+                    "key": "type",
+                    "type": "string",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "size": 32,
+                    "default": null
+                },
+                {
+                    "key": "payload",
+                    "type": "string",
+                    "status": "available",
+                    "required": false,
+                    "array": true,
+                    "size": 32,
+                    "default": null
+                },
+                {
+                    "key": "comment",
+                    "type": "string",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "size": 512,
+                    "default": null
+                }
+            ],
+            "indexes": [
+                {
+                    "key": "bid_type",
+                    "type": "key",
+                    "status": "available",
+                    "attributes": [
+                        "bid_id",
+                        "type"
+                    ],
+                    "orders": [
+                        "ASC",
+                        "ASC"
+                    ]
+                },
+                {
+                    "key": "apartment_type",
+                    "type": "key",
+                    "status": "available",
+                    "attributes": [
+                        "apartment_id",
+                        "type"
+                    ],
+                    "orders": [
+                        "ASC",
+                        "ASC"
+                    ]
+                },
+                {
+                    "key": "bid",
+                    "type": "key",
+                    "status": "available",
+                    "attributes": [
+                        "bid_id"
+                    ],
+                    "orders": [
+                        "ASC"
+                    ]
+                },
+                {
+                    "key": "apartment",
+                    "type": "key",
+                    "status": "available",
+                    "attributes": [
+                        "apartment_id"
+                    ],
+                    "orders": [
                         "ASC"
                     ]
                 }
@@ -4674,260 +4977,6 @@
                     ]
                 }
             ]
-        },
-        {
-            "$id": "64db49022640a0d53252",
-            "$permissions": [
-                "create(\"any\")",
-                "read(\"any\")",
-                "update(\"any\")",
-                "delete(\"any\")"
-            ],
-            "databaseId": "64c4de8e7b30179809ff",
-            "name": "DEAL",
-            "enabled": true,
-            "documentSecurity": false,
-            "attributes": [
-                {
-                    "key": "apartment_id",
-                    "type": "string",
-                    "status": "available",
-                    "required": false,
-                    "array": false,
-                    "size": 128,
-                    "default": null
-                },
-                {
-                    "key": "bid_id",
-                    "type": "string",
-                    "status": "available",
-                    "required": false,
-                    "array": false,
-                    "size": 128,
-                    "default": null
-                },
-                {
-                    "key": "status",
-                    "type": "string",
-                    "status": "available",
-                    "required": false,
-                    "array": false,
-                    "size": 48,
-                    "default": null
-                },
-                {
-                    "key": "user_id",
-                    "type": "string",
-                    "status": "available",
-                    "required": false,
-                    "array": false,
-                    "size": 128,
-                    "default": null
-                },
-                {
-                    "key": "telefon",
-                    "type": "string",
-                    "status": "available",
-                    "required": false,
-                    "array": false,
-                    "size": 128,
-                    "default": null
-                },
-                {
-                    "key": "istochnik",
-                    "type": "string",
-                    "status": "available",
-                    "required": false,
-                    "array": false,
-                    "size": 48,
-                    "default": null
-                },
-                {
-                    "key": "czena",
-                    "type": "string",
-                    "status": "available",
-                    "required": false,
-                    "array": false,
-                    "size": 128,
-                    "default": null
-                },
-                {
-                    "key": "prodazha",
-                    "type": "boolean",
-                    "status": "available",
-                    "required": false,
-                    "array": false,
-                    "default": null
-                },
-                {
-                    "key": "arenda",
-                    "type": "boolean",
-                    "status": "available",
-                    "required": false,
-                    "array": false,
-                    "default": null
-                },
-                {
-                    "key": "index",
-                    "type": "integer",
-                    "status": "available",
-                    "required": false,
-                    "array": false,
-                    "min": -9223372036854775808,
-                    "max": 9223372036854775807,
-                    "default": null
-                },
-                {
-                    "key": "contact_id",
-                    "type": "string",
-                    "status": "available",
-                    "required": false,
-                    "array": false,
-                    "size": 128,
-                    "default": null
-                },
-                {
-                    "key": "valyuta",
-                    "type": "string",
-                    "status": "available",
-                    "required": false,
-                    "array": false,
-                    "size": 48,
-                    "default": null
-                },
-                {
-                    "key": "tip_prodazhi",
-                    "type": "string",
-                    "status": "available",
-                    "required": false,
-                    "array": false,
-                    "size": 48,
-                    "default": null
-                },
-                {
-                    "key": "tip_arendy",
-                    "type": "string",
-                    "status": "available",
-                    "required": false,
-                    "array": false,
-                    "size": 48,
-                    "default": null
-                },
-                {
-                    "key": "system_metadata",
-                    "type": "string",
-                    "status": "available",
-                    "required": false,
-                    "array": false,
-                    "size": 1024,
-                    "default": null
-                }
-            ],
-            "indexes": []
-        },
-        {
-            "$id": "64c75cc607be95d26b8d",
-            "$permissions": [
-                "create(\"any\")",
-                "read(\"any\")",
-                "update(\"any\")",
-                "delete(\"any\")"
-            ],
-            "databaseId": "64c4de8e7b30179809ff",
-            "name": "EDITTARGET",
-            "enabled": true,
-            "documentSecurity": false,
-            "attributes": [
-                {
-                    "key": "entity_id",
-                    "type": "string",
-                    "status": "available",
-                    "required": false,
-                    "array": false,
-                    "size": 256,
-                    "default": null
-                },
-                {
-                    "key": "path",
-                    "type": "string",
-                    "status": "available",
-                    "required": false,
-                    "array": false,
-                    "size": 256,
-                    "default": null
-                }
-            ],
-            "indexes": []
-        },
-        {
-            "$id": "64ff0d1a1eec52961ec4",
-            "$permissions": [
-                "create(\"any\")",
-                "read(\"any\")",
-                "update(\"any\")",
-                "delete(\"any\")"
-            ],
-            "databaseId": "64c4de8e7b30179809ff",
-            "name": "DEAL_HISTORY",
-            "enabled": true,
-            "documentSecurity": false,
-            "attributes": [
-                {
-                    "key": "user_id",
-                    "type": "string",
-                    "status": "available",
-                    "required": false,
-                    "array": false,
-                    "size": 128,
-                    "default": null
-                },
-                {
-                    "key": "bid_id",
-                    "type": "string",
-                    "status": "available",
-                    "required": false,
-                    "array": false,
-                    "size": 128,
-                    "default": null
-                },
-                {
-                    "key": "apartment_id",
-                    "type": "string",
-                    "status": "available",
-                    "required": false,
-                    "array": false,
-                    "size": 128,
-                    "default": null
-                },
-                {
-                    "key": "type",
-                    "type": "string",
-                    "status": "available",
-                    "required": false,
-                    "array": false,
-                    "size": 48,
-                    "default": null
-                },
-                {
-                    "key": "payload",
-                    "type": "string",
-                    "status": "available",
-                    "required": false,
-                    "array": true,
-                    "size": 48,
-                    "default": null
-                },
-                {
-                    "key": "comment",
-                    "type": "string",
-                    "status": "available",
-                    "required": false,
-                    "array": false,
-                    "size": 512,
-                    "default": null
-                }
-            ],
-            "indexes": []
         }
     ],
     "buckets": [
@@ -4952,77 +5001,41 @@
         }
     ],
     "functions": [
-        {
-            "$id": "64e9cd0497e2f9810861",
-            "name": "APARTMENT_PAGINATOR",
-            "runtime": "python-3.9",
-            "path": "functions/apartment_paginator",
-            "entrypoint": "index.py",
-            "vars": {
-                "APPWRITE_FUNCTION_ENDPOINT": "",
-                "APPWRITE_FUNCTION_PROJECT_ID": "",
-                "APPWRITE_FUNCTION_API_KEY": "",
-                "DATABASE_ID": "",
-                "TARGET_COLLECTION_ID": "",
-                "SETTINGS_COLLECTION_ID": ""
-            },
-            "ignore": [
-                "__pypackages__"
-            ],
-            "execute": [
-                "any"
-            ],
-            "events": [],
-            "schedule": "",
-            "timeout": 15
-        },
-        {
-            "$id": "64e9cd0497e2f9810862",
-            "name": "CONTACT_PAGINATOR",
-            "runtime": "python-3.9",
-            "path": "functions/contact_paginator",
-            "entrypoint": "index.py",
-            "vars": {
-                "APPWRITE_FUNCTION_ENDPOINT": "",
-                "APPWRITE_FUNCTION_PROJECT_ID": "",
-                "APPWRITE_FUNCTION_API_KEY": "",
-                "DATABASE_ID": "",
-                "TARGET_COLLECTION_ID": "",
-                "SETTINGS_COLLECTION_ID": ""
-            },
-            "ignore": [
-                "__pypackages__"
-            ],
-            "execute": [
-                "any"
-            ],
-            "events": [],
-            "schedule": "",
-            "timeout": 15
-        },
-        {
-            "$id": "64e9cd0497e2f9810863",
-            "name": "BID_PAGINATOR",
-            "runtime": "python-3.9",
-            "path": "functions/bid_paginator",
-            "entrypoint": "index.py",
-            "vars": {
-                "APPWRITE_FUNCTION_ENDPOINT": "",
-                "APPWRITE_FUNCTION_PROJECT_ID": "",
-                "APPWRITE_FUNCTION_API_KEY": "",
-                "DATABASE_ID": "",
-                "TARGET_COLLECTION_ID": "",
-                "SETTINGS_COLLECTION_ID": ""
-            },
-            "ignore": [
-                "__pypackages__"
-            ],
-            "execute": [
-                "any"
-            ],
-            "events": [],
-            "schedule": "",
-            "timeout": 15
-        }
+      {
+        "$id": "64f897b27ee4d2274578",
+        "name": "NODE_APARTMENT_PAGINATOR",
+        "runtime": "node-18.0",
+        "path": "functions/node-apartment-paginator",
+        "entrypoint": "src/index.js",
+        "ignore": ["node_modules", ".npm"],
+        "execute": [],
+        "events": [],
+        "schedule": "",
+        "timeout": 15
+      },
+      {
+        "$id": "6501b800aee6e0a6642a",
+        "name": "NODE_BID_PAGINATOR",
+        "runtime": "node-18.0",
+        "path": "functions/node-bid-paginator",
+        "entrypoint": "src/index.js",
+        "ignore": ["node_modules", ".npm"],
+        "execute": [],
+        "events": [],
+        "schedule": "",
+        "timeout": 15
+      },
+      {
+        "$id": "6501b9f9e2e012a89cfb",
+        "name": "NODE_CONTACT_PAGINATOR",
+        "runtime": "node-18.0",
+        "path": "functions/node-contact-paginator",
+        "entrypoint": "src/index.js",
+        "ignore": ["node_modules", ".npm"],
+        "execute": [],
+        "events": [],
+        "schedule": "",
+        "timeout": 15
+      }
     ]
 }
