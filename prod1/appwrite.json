@@ -28,8 +28,8 @@
           "type": "string",
           "status": "available",
           "required": false,
-          "array": false,
-          "size": 256,
+          "array": true,
+          "size": 48,
           "default": null
         },
         {
@@ -38,7 +38,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 256,
+          "size": 96,
           "default": null
         },
         {
@@ -47,7 +47,7 @@
           "status": "available",
           "required": false,
           "array": true,
-          "size": 256,
+          "size": 48,
           "default": null
         },
         {
@@ -56,7 +56,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 256,
+          "size": 96,
           "default": null
         },
         {
@@ -65,7 +65,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 256,
+          "size": 96,
           "default": null
         },
         {
@@ -74,7 +74,7 @@
           "status": "available",
           "required": false,
           "array": true,
-          "size": 256,
+          "size": 96,
           "default": null
         },
         {
@@ -83,7 +83,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 256,
+          "size": 96,
           "default": null
         },
         {
@@ -100,7 +100,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 256,
+          "size": 96,
           "default": null
         },
         {
@@ -109,7 +109,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 256,
+          "size": 96,
           "default": null
         },
         {
@@ -182,7 +182,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 256,
+          "size": 96,
           "default": null
         },
         {
@@ -191,7 +191,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 256,
+          "size": 96,
           "default": null
         },
         {
@@ -199,8 +199,8 @@
           "type": "string",
           "status": "available",
           "required": false,
-          "array": false,
-          "size": 256,
+          "array": true,
+          "size": 48,
           "default": null
         },
         {
@@ -209,7 +209,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         }
       ],
@@ -234,7 +234,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         }
       ],
@@ -258,8 +258,8 @@
           "type": "string",
           "status": "available",
           "required": false,
-          "array": false,
-          "size": 256,
+          "array": true,
+          "size": 48,
           "default": null
         },
         {
@@ -268,7 +268,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 256,
+          "size": 96,
           "default": null
         },
         {
@@ -276,8 +276,8 @@
           "type": "string",
           "status": "available",
           "required": false,
-          "array": false,
-          "size": 256,
+          "array": true,
+          "size": 48,
           "default": null
         },
         {
@@ -285,8 +285,8 @@
           "type": "string",
           "status": "available",
           "required": false,
-          "array": false,
-          "size": 256,
+          "array": true,
+          "size": 48,
           "default": null
         },
         {
@@ -295,7 +295,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 256,
+          "size": 96,
           "default": null
         },
         {
@@ -303,8 +303,8 @@
           "type": "string",
           "status": "available",
           "required": false,
-          "array": false,
-          "size": 256,
+          "array": true,
+          "size": 48,
           "default": null
         },
         {
@@ -313,7 +313,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 256,
+          "size": 96,
           "default": null
         },
         {
@@ -322,7 +322,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 256,
+          "size": 96,
           "default": null
         },
         {
@@ -331,7 +331,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 256,
+          "size": 96,
           "default": null
         },
         {
@@ -339,8 +339,8 @@
           "type": "string",
           "status": "available",
           "required": false,
-          "array": false,
-          "size": 256,
+          "array": true,
+          "size": 48,
           "default": null
         },
         {
@@ -349,7 +349,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 256,
+          "size": 96,
           "default": null
         },
         {
@@ -358,7 +358,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 256,
+          "size": 96,
           "default": null
         },
         {
@@ -367,7 +367,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 256,
+          "size": 96,
           "default": null
         },
         {
@@ -376,7 +376,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 256,
+          "size": 96,
           "default": null
         },
         {
@@ -385,7 +385,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 256,
+          "size": 96,
           "default": null
         },
         {
@@ -394,7 +394,7 @@
           "status": "available",
           "required": false,
           "array": true,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -402,8 +402,8 @@
           "type": "string",
           "status": "available",
           "required": false,
-          "array": false,
-          "size": 256,
+          "array": true,
+          "size": 48,
           "default": null
         },
         {
@@ -412,7 +412,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 256,
+          "size": 96,
           "default": null
         },
         {
@@ -421,7 +421,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 256,
+          "size": 96,
           "default": null
         },
         {
@@ -439,7 +439,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 256,
+          "size": 96,
           "default": null
         },
         {
@@ -448,7 +448,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 256,
+          "size": 96,
           "default": null
         },
         {
@@ -457,7 +457,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 256,
+          "size": 96,
           "default": null
         },
         {
@@ -466,7 +466,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 256,
+          "size": 96,
           "default": null
         },
         {
@@ -474,8 +474,8 @@
           "type": "string",
           "status": "available",
           "required": false,
-          "array": false,
-          "size": 256,
+          "array": true,
+          "size": 48,
           "default": null
         },
         {
@@ -484,7 +484,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 256,
+          "size": 96,
           "default": null
         },
         {
@@ -493,7 +493,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 256,
+          "size": 96,
           "default": null
         },
         {
@@ -502,7 +502,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 256,
+          "size": 96,
           "default": null
         },
         {
@@ -584,7 +584,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -593,7 +593,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -611,7 +611,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -620,7 +620,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -638,7 +638,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -673,7 +673,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -734,7 +734,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 256,
+          "size": 64,
           "default": null
         },
         {
@@ -743,7 +743,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 256,
+          "size": 64,
           "default": null
         }
       ],
@@ -768,7 +768,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -777,7 +777,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -786,7 +786,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -794,7 +794,7 @@
           "type": "string",
           "status": "available",
           "required": false,
-          "array": true,
+          "array": false,
           "size": 48,
           "default": null
         },
@@ -884,8 +884,8 @@
           "type": "string",
           "status": "available",
           "required": false,
-          "array": false,
-          "size": 128,
+          "array": true,
+          "size": 48,
           "default": null
         },
         {
@@ -903,7 +903,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -911,8 +911,8 @@
           "type": "string",
           "status": "available",
           "required": false,
-          "array": false,
-          "size": 128,
+          "array": true,
+          "size": 48,
           "default": null
         },
         {
@@ -938,7 +938,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -947,7 +947,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -965,7 +965,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -983,7 +983,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -1000,7 +1000,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -1026,7 +1026,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -1052,7 +1052,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -1070,7 +1070,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -1079,7 +1079,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -1096,7 +1096,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -1113,7 +1113,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -1122,7 +1122,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -1131,7 +1131,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -1148,7 +1148,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -1200,8 +1200,8 @@
           "type": "string",
           "status": "available",
           "required": false,
-          "array": false,
-          "size": 128,
+          "array": true,
+          "size": 48,
           "default": null
         },
         {
@@ -1227,7 +1227,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -1236,7 +1236,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -1262,7 +1262,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -1271,7 +1271,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -1279,8 +1279,8 @@
           "type": "string",
           "status": "available",
           "required": false,
-          "array": false,
-          "size": 128,
+          "array": true,
+          "size": 48,
           "default": null
         },
         {
@@ -1289,7 +1289,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -1323,8 +1323,8 @@
           "type": "string",
           "status": "available",
           "required": false,
-          "array": false,
-          "size": 128,
+          "array": true,
+          "size": 48,
           "default": null
         },
         {
@@ -1351,7 +1351,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -1392,8 +1392,8 @@
           "type": "string",
           "status": "available",
           "required": false,
-          "array": false,
-          "size": 128,
+          "array": true,
+          "size": 48,
           "default": null
         },
         {
@@ -1457,8 +1457,8 @@
           "type": "string",
           "status": "available",
           "required": false,
-          "array": false,
-          "size": 128,
+          "array": true,
+          "size": 48,
           "default": null
         },
         {
@@ -1515,7 +1515,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -1575,7 +1575,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -1609,7 +1609,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -1626,7 +1626,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -1643,7 +1643,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -1677,7 +1677,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -1686,7 +1686,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -1694,8 +1694,8 @@
           "type": "string",
           "status": "available",
           "required": false,
-          "array": false,
-          "size": 128,
+          "array": true,
+          "size": 48,
           "default": null
         },
         {
@@ -1749,7 +1749,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -1757,8 +1757,8 @@
           "type": "string",
           "status": "available",
           "required": false,
-          "array": false,
-          "size": 128,
+          "array": true,
+          "size": 48,
           "default": null
         },
         {
@@ -1785,7 +1785,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -1802,7 +1802,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -1969,7 +1969,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -2010,7 +2010,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -2037,7 +2037,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -2046,7 +2046,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -2062,8 +2062,8 @@
           "type": "string",
           "status": "available",
           "required": false,
-          "array": false,
-          "size": 128,
+          "array": true,
+          "size": 48,
           "default": null
         },
         {
@@ -2142,7 +2142,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -2160,7 +2160,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -2178,7 +2178,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -2213,7 +2213,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -2229,8 +2229,8 @@
           "type": "string",
           "status": "available",
           "required": false,
-          "array": false,
-          "size": 128,
+          "array": true,
+          "size": 48,
           "default": null
         },
         {
@@ -2239,7 +2239,7 @@
           "status": "available",
           "required": false,
           "array": true,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -2248,7 +2248,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -2257,7 +2257,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -2274,7 +2274,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -2282,8 +2282,8 @@
           "type": "string",
           "status": "available",
           "required": false,
-          "array": false,
-          "size": 128,
+          "array": true,
+          "size": 48,
           "default": null
         },
         {
@@ -2292,7 +2292,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -2310,7 +2310,7 @@
           "status": "available",
           "required": false,
           "array": true,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -2327,7 +2327,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -2361,7 +2361,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -2378,7 +2378,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -2396,7 +2396,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -2431,8 +2431,8 @@
           "type": "string",
           "status": "available",
           "required": false,
-          "array": false,
-          "size": 128,
+          "array": true,
+          "size": 48,
           "default": null
         },
         {
@@ -2440,8 +2440,8 @@
           "type": "string",
           "status": "available",
           "required": false,
-          "array": false,
-          "size": 128,
+          "array": true,
+          "size": 48,
           "default": null
         },
         {
@@ -2476,7 +2476,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -2494,7 +2494,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -2511,7 +2511,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -2520,7 +2520,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -2529,7 +2529,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -2563,7 +2563,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -2572,7 +2572,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -2606,7 +2606,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -2614,8 +2614,8 @@
           "type": "string",
           "status": "available",
           "required": false,
-          "array": false,
-          "size": 128,
+          "array": true,
+          "size": 48,
           "default": null
         },
         {
@@ -2623,8 +2623,8 @@
           "type": "string",
           "status": "available",
           "required": false,
-          "array": false,
-          "size": 128,
+          "array": true,
+          "size": 48,
           "default": null
         },
         {
@@ -2684,7 +2684,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
@@ -2729,7 +2729,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 2048,
+          "size": 1024,
           "default": null
         }
       ],
@@ -3059,8 +3059,8 @@
           "type": "string",
           "status": "available",
           "required": false,
-          "array": false,
-          "size": 96,
+          "array": true,
+          "size": 48,
           "default": null
         },
         {
@@ -3068,8 +3068,8 @@
           "type": "string",
           "status": "available",
           "required": false,
-          "array": false,
-          "size": 96,
+          "array": true,
+          "size": 48,
           "default": null
         },
         {
@@ -3176,8 +3176,8 @@
           "type": "string",
           "status": "available",
           "required": false,
-          "array": false,
-          "size": 96,
+          "array": true,
+          "size": 48,
           "default": null
         },
         {
@@ -3537,8 +3537,8 @@
           "type": "string",
           "status": "available",
           "required": false,
-          "array": false,
-          "size": 96,
+          "array": true,
+          "size": 48,
           "default": null
         },
         {
@@ -3554,8 +3554,8 @@
           "type": "string",
           "status": "available",
           "required": false,
-          "array": false,
-          "size": 96,
+          "array": true,
+          "size": 48,
           "default": null
         },
         {
@@ -3702,8 +3702,8 @@
           "type": "string",
           "status": "available",
           "required": false,
-          "array": false,
-          "size": 96,
+          "array": true,
+          "size": 48,
           "default": null
         },
         {
@@ -3719,8 +3719,8 @@
           "type": "string",
           "status": "available",
           "required": false,
-          "array": false,
-          "size": 96,
+          "array": true,
+          "size": 48,
           "default": null
         },
         {
@@ -3745,8 +3745,8 @@
           "type": "string",
           "status": "available",
           "required": false,
-          "array": false,
-          "size": 96,
+          "array": true,
+          "size": 48,
           "default": null
         },
         {
@@ -3939,8 +3939,8 @@
           "type": "string",
           "status": "available",
           "required": false,
-          "array": false,
-          "size": 96,
+          "array": true,
+          "size": 48,
           "default": null
         },
         {
@@ -4095,8 +4095,8 @@
           "type": "string",
           "status": "available",
           "required": false,
-          "array": false,
-          "size": 96,
+          "array": true,
+          "size": 48,
           "default": null
         },
         {
@@ -4214,8 +4214,8 @@
           "type": "string",
           "status": "available",
           "required": false,
-          "array": false,
-          "size": 96,
+          "array": true,
+          "size": 48,
           "default": null
         },
         {
@@ -4354,8 +4354,8 @@
           "type": "string",
           "status": "available",
           "required": false,
-          "array": false,
-          "size": 96,
+          "array": true,
+          "size": 48,
           "default": null
         },
         {
@@ -4398,8 +4398,8 @@
           "type": "string",
           "status": "available",
           "required": false,
-          "array": false,
-          "size": 96,
+          "array": true,
+          "size": 48,
           "default": null
         },
         {
@@ -4407,8 +4407,8 @@
           "type": "string",
           "status": "available",
           "required": false,
-          "array": false,
-          "size": 96,
+          "array": true,
+          "size": 48,
           "default": null
         },
         {
@@ -4495,8 +4495,8 @@
           "type": "string",
           "status": "available",
           "required": false,
-          "array": false,
-          "size": 96,
+          "array": true,
+          "size": 48,
           "default": null
         },
         {
@@ -4602,7 +4602,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 2048,
+          "size": 1024,
           "default": null
         },
         {
@@ -4644,7 +4644,7 @@
           "status": "available",
           "required": false,
           "array": true,
-          "size": 64,
+          "size": 48,
           "default": null
         },
         {
@@ -4686,8 +4686,8 @@
           "type": "string",
           "status": "available",
           "required": false,
-          "array": false,
-          "size": 96,
+          "array": true,
+          "size": 48,
           "default": null
         },
         {
@@ -4714,7 +4714,7 @@
           "status": "available",
           "required": false,
           "array": false,
-          "size": 128,
+          "size": 96,
           "default": null
         },
         {
