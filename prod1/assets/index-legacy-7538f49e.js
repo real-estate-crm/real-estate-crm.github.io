@@ -1,0 +1,1 @@
+System.register(["./index-legacy-ea6baa56.js","./vendor-legacy-6fddd1b0.js"],(function(e,s){"use strict";return{setters:[function(s){e({BidAddressCard:s.B,address_fields:s.c,area_fields:s.d,default:s.B})},null],execute:function(){}}}));
