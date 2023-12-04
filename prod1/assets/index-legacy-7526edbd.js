@@ -1,1 +1,0 @@
-System.register(["./index-legacy-ea6baa56.js","./vendor-legacy-6fddd1b0.js"],(function(e,t){"use strict";return{setters:[function(t){e({apartment_fields:t.e,default:t.e})},null],execute:function(){}}}));
